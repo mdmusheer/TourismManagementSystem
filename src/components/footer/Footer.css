@@ -1,0 +1,77 @@
+/* Footer.css */
+
+/* Styling for the footer */
+.footer {
+    background-color: #1e1e1e; /* Light black background color */
+    color: #ffffff; /* White text color */
+    padding: 1rem; /* Add padding inside the footer */
+}
+
+.footer-content {
+    max-width: 1200px; /* Max width for the container */
+    margin: 0 auto; /* Center the container */
+}
+
+.footer-title {
+    font-size: 1.5rem; /* Font size for titles */
+    font-weight: bold; /* Bold font for titles */
+    margin-bottom: 1rem; /* Space below titles */
+}
+
+.footer-info {
+    font-size: 1rem; /* Font size for info */
+    margin-bottom: 0.5rem; /* Space below each info line */
+}
+
+.footer-link {
+    color: #ffffff; /* White text color for links */
+    text-decoration: none; /* Remove underline */
+}
+
+.footer-link:hover {
+    text-decoration: underline; /* Underline on hover */
+    color: #dcdcdc; /* Slightly lighter color on hover */
+}
+
+.social-media-icons {
+    display: flex;
+    gap: 1rem; /* Space between social media icons */
+    align-items: center; /* Align items vertically center */
+}
+
+.social-media-link {
+    color: #ffffff; /* White text color for icons */
+    font-size: 1.5rem; /* Font size for icons */
+    text-decoration: none; /* Remove underline */
+    display: flex; /* Flex container for icon and text */
+    align-items: center; /* Vertically align items */
+}
+
+.social-media-link:hover {
+    color: #dcdcdc; /* Change color on hover */
+}
+
+/* Add left padding to all three columns */
+.col-md-4 {
+    padding-left: 10px; /* Left padding for all columns */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .footer-title {
+        font-size: 1.25rem; /* Slightly smaller font size for titles on smaller screens */
+    }
+
+    .footer-info {
+        font-size: 0.875rem; /* Slightly smaller font size for info on smaller screens */
+    }
+
+    .social-media-icons {
+        flex-direction: column; /* Stack icons vertically on smaller screens */
+        gap: 0.5rem; /* Smaller gap between icons on smaller screens */
+    }
+
+    .social-media-link {
+        font-size: 1.25rem; /* Smaller font size for icons on smaller screens */
+    }
+}

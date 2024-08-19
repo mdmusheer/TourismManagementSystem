@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+.custom-navbar .nav-link {
+  color: rgb(57, 58, 57);
+  font-weight: bold; /* Make the active link bold */
+  font-family: 'Roboto Slab', serif; /* Set the font family for the active link */
+  font-weight: bolder;
+}
+
+/* Navbar styling */
+.custom-navbar .nav-link.active {
+  font-weight: bold; /* Make all links bold */
+  font-family: 'Open Sans', sans-serif;
+  color: #0fdaa3; /* Default color for inactive links */
+}
+
+/* Navbar background color */
+.custom-navbar {
+  background-color: rgba(93, 164, 222, 0.2); /* 20% opacity */
+}
+
+/* Profile icon styling */
+.profile-icon {
+  display: flex;
+  align-items: center;
+  margin-left: 20px; /* Add spacing between "Home" and profile icon */
+}
+
+.profile-icon .fa-user-circle {
+  font-size: 24px; /* Adjust the size of the icon */
+  width: 30px; /* Set a specific width */
+  height: 30px; /* Set a specific height */
+  border-radius: 50%; /* Make the icon circular */
+  background-color: #f0f0f0; /* Light background for better visibility */
+  color: #333; /* Icon color */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Profile menu styling */
+.profile-menu {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  width: 250px;
+  height: auto;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  padding: 15px;
+}
+
+/* Profile header styling */
+.profile-menu .profile-header {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+/* Profile image styling for profile-header */
+.profile-menu .profile-header .profile-image-small {
+  width: 50px;  /* Set the desired width */
+  height: 50px; /* Set the desired height */
+  border-radius: 50%; /* Ensure the image is circular */
+  object-fit: cover; /* Ensure the image covers the area without distortion */
+  background-color: #f0f0f0; /* Light background for better visibility (optional) */
+}
+
+.profile-menu .profile-header .fa-user-circle {
+  font-size: 40px; /* Adjust the size for profile header */
+  width: 50px; /* Set a specific width */
+  height: 50px; /* Set a specific height */
+  margin-right: 10px; /* Add spacing between the icon and text */
+}
+
+/* Profile details styling */
+.profile-menu .profile-details {
+  padding: 10px 0;
+}
+
+/* Logout button styling */
+.profile-menu button {
+  width: 100%;
+  padding: 10px;
+  background-color: #40E0D0;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.profile-menu button:hover {
+  background-color: #34b3a0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Navbar styling */
+/*
+.custom-navbar .nav-link.active {
+  color: black;
+  font-weight: bold; /* Make the active link bold */ /*
+  font-family: 'Roboto Slab', serif; /* Set the font family for the active link */
+/*}
+
+/* Navbar background color */
+/*
+.custom-navbar {
+  background-color: rgba(93, 164, 222, 0.2); /* 20% opacity */ /*
+}
+
+/* Profile icon styling */
+/*
+.profile-icon {
+  display: flex;
+  align-items: center;
+  margin-left: 20px; /* Add spacing between "Home" and profile icon */
+/* }
+
+.profile-icon .fa-user-circle {/* /*
+  font-size: 24px; /* Adjust the size of the icon */ /*
+  width: 30px; /* Set a specific width */ /*
+  height: 30px; /* Set a specific height */ /*
+  border-radius: 50%; /* Make the icon circular */ /*
+  background-color: #f0f0f0; /* Light background for better visibility */ /*
+  color: #333; /* Icon color */ /*
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Profile menu styling */
+/*
+.profile-menu {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  width: 250px;
+  height: auto;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  padding: 15px;
+}
+
+/* Profile header styling */
+/*
+.profile-menu .profile-header {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+/* Profile image styling for profile-header *//*
+.profile-menu .profile-header .profile-image-small {
+  width: 50px;  /* Set the desired width *//*
+  height: 50px; /* Set the desired height *//*
+  border-radius: 50%; /* Ensure the image is circular *//*
+  object-fit: cover; /* Ensure the image covers the area without distortion *//*
+  background-color: #f0f0f0; /* Light background for better visibility (optional) *//*
+}
+/*
+.profile-menu .profile-header .fa-user-circle {/*
+  font-size: 40px; /* Adjust the size for profile header */ /*
+  width: 50px; /* Set a specific width */
+  /* height: 50px; /* Set a specific height *//*
+  margin-right: 10px; /* Add spacing between the icon and text *//*
+}
+
+/* Profile details styling */
+/*
+.profile-menu .profile-details {
+  padding: 10px 0;
+}
+/*
+/* Logout button styling */
+
+/*
+.profile-menu button {
+  width: 100%;
+  padding: 10px;
+  background-color: #40E0D0;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+*/
+/*
+.profile-menu button:hover {
+  background-color: #34b3a0;
+}
+*/

@@ -1,0 +1,48 @@
+
+.users {
+    background-color: rgb(203, 210, 204); /* Transparent white background */
+    padding: 1px;
+    
+    border-radius: 10px; /* Optional: Add border-radius for rounded corners */
+   min-height: 375px; /* Set the height */
+  width: 50%; /* Set the width */
+  margin: auto; /* Center the form horizontally */
+  opacity: 100%;
+  transition: ease-in;
+  
+
+  /* overflow: auto; Add overflow:auto to enable scrolling if content overflows */
+  }
+  
+
+.form-label{
+  color: rgb(78, 54, 233);
+  font: bold;
+}
+
+  /* Responsive styles */
+  @media (max-width: 576px) {
+    .users {
+      padding: 1px;
+    }
+  }
+  
+  .custom-file-input-wrapper {
+    position: relative;
+    overflow: hidden;
+    background-color: #f8f9fa; /* Set your desired background color */
+    border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+  }
+  
+  .custom-file-input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+  }
+  
+  
+
+  

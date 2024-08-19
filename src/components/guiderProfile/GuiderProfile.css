@@ -1,0 +1,327 @@
+/* GuiderProfile.css
+
+.profile-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .guider-details {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .guider-details h2 {
+    color: #333;
+  }
+  
+  .guider-details p {
+    color: #666;
+    font-size: 16px;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .table th,
+  .table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .table th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .table tr:hover {
+    background-color: #e2e2e2;
+  }
+  
+  .accept-button {
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .accept-button:hover {
+    background-color: #45a049;
+  }
+   */
+
+   /* GuiderProfile.css */
+
+/* .profile-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .guider-details {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .guider-details h2 {
+    color: #333;
+  }
+  
+  .guider-details p {
+    color: #666;
+    font-size: 16px;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .table th,
+  .table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .table th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .table tr:hover {
+    background-color: #e2e2e2;
+  }
+  
+  .status-button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .status-button.requested {
+    background-color: #f44336;
+  }
+  
+  .status-button.requested:hover {
+    background-color: #d32f2f;
+  }
+  
+  .status-button.accepted {
+    background-color: #5c3b57;
+  }
+  
+  .status-button.accepted:hover {
+    border-radius: 10px;
+    background-color: #5463c1;
+  }
+   */
+
+   /* GuiderProfile.css */
+
+/* .profile-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .guider-details {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .guider-details h2 {
+    color: #333;
+  }
+  
+  .guider-details p {
+    color: #666;
+    font-size: 16px;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .table th,
+  .table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .table th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .table tr:hover {
+    background-color: #e2e2e2;
+  }
+  
+  .status-button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .status-button.requested {
+    background-color: #f44336;
+  }
+  
+  .status-button.requested:hover {
+    background-color: #d32f2f;
+  }
+  
+  .status-button.accepted {
+    background-color: #4CAF50;
+  }
+  
+  .status-button.accepted:hover {
+    background-color: #388E3C;
+  }
+  
+  .status-button:disabled {
+    background-color: #a5a5a5;
+    cursor: not-allowed;
+  }
+   */
+
+   /* GuiderProfile.css */
+
+   .profile-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .guider-details {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .guider-details h2 {
+    color: #333;
+  }
+  
+  .guider-details p {
+    color: #666;
+    font-size: 16px;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .table th,
+  .table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .table th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .table tr:hover {
+    background-color: #e2e2e2;
+  }
+  
+  .status-button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .status-button.requested {
+    background-color: #f44336;
+  }
+  
+  .status-button.requested:hover {
+    background-color: #d32f2f;
+  }
+  
+  .status-button.accepted {
+    background-color: #4CAF50;
+  }
+  
+  .status-button.accepted:hover {
+    background-color: #388E3C;
+  }
+  
+  .status-button:disabled {
+    background-color: #a5a5a5;
+    cursor: not-allowed;
+  }
+  
+  /* GuiderDetails.css */
+
+
+.guider-image-container {
+  margin-bottom: 1rem; /* Space between image and text */
+}
+
+.guider-image {
+  width: 150px; /* Set the width of the image */
+  height: 150px; /* Set the height of the image */
+  border-radius: 50%; /* Make the image circular */
+  object-fit: cover; /* Ensure the image covers the area */
+}

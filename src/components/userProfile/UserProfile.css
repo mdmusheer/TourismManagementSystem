@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+.display-4 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 3.5rem; /* Desktop size */
+  color: #aeb56f;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  letter-spacing: 1px;
+}
+
+/* Responsive styling for mobile view */
+@media (max-width: 768px) {
+  .display-4 {
+    font-size: 2.5rem; /* Adjusted size for tablets */
+  }
+}
+
+@media (max-width: 576px) {
+  .display-4 {
+    font-size: 2rem; /* Adjusted size for mobile phones */
+  }
+}
+
+
+.custom-card {
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, opacity 0.3s;
+  }
+  
+  .custom-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .place-image {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  
+  /* Custom animation classes */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .animate__animated {
+    animation-duration: 1s;
+  }
+  
+  .animate__fadeInUp {
+    animation-name: fadeInUp;
+  }
+  
+  
+  /* UserProfile.css */
+
+/* Center the user profile card */
+.user-profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* Style the card */
+.custom-card {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px; /* Rounded corners for the card */
+  overflow: hidden; /* Ensures the content does not overflow */
+}
+
+/* Style the image */
+.card-img-top1 {
+  width: 80%;
+  height: 200px;
+  border-radius: 50%; /* Makes the image round */
+  display: block;
+  margin: 0 auto; /* Centers the image horizontally */
+}
+
+/* Style the card body */
+.card-body {
+  text-align: center;
+}
+
+
+/* //reveiw images styles */
+.card-reveiw-imgs {
+  width: 100%;
+  height: 150px; /* Adjust height as needed */
+  object-fit: cover; /* Ensures images cover the area without distortion */
+}
+
+.custom-card {
+  /* Add any additional styling you need for your cards */
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+
+.img-thumbnail {
+  border: none;
+  /* Optionally, add padding or border styles */
+}
+
+.btn-link {
+  /* Style for the Show More/Less Images button */
+  color: #a6cc1d;
+  font-weight: bold;
+}
+
+.btn-link:hover {
+  text-decoration: underline;
+}
+.no-underline{
+  text-decoration: none;
+}
+
+.card-img-top2{
+  height: 300px;
+  width: 100%;
+  /* object-fit: cover;  */
+}
+.card-img-top{
+  height: 250px;
+  width: 100%;
+  /* object-fit: cover;  */
+}
+
+
+
+
+
+/* 
+.custom-card {
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, opacity 0.3s;
+  }
+  
+  .custom-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .place-image {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+
+  /* Custom animation classes */
+ /* @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .animate__animated {
+    animation-duration: 1s;
+  }
+  
+  .animate__fadeInUp {
+    animation-name: fadeInUp;
+  }
+  
+  
+  /* UserProfile.css */
+
+/* Center the user profile card */
+/*.user-profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* Style the card */
+/*.custom-card {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px; /* Rounded corners for the card */
+ /* overflow: hidden; /* Ensures the content does not overflow */
+/*}
+
+/* Style the image */
+/*.card-img-top1 {
+  width: 80%;
+  height: 200px;
+  border-radius: 50%; /* Makes the image round */
+ /* display: block;
+  margin: 0 auto; /* Centers the image horizontally */
+/*}
+
+/* Style the card body */
+/*
+.card-body {
+  text-align: center;
+} */

@@ -1,0 +1,19 @@
+/* Rootlayout.css */
+
+.root-layout {
+    min-height: 900px; /* Ensure the layout takes at least full viewport height */
+    display: flex;
+    
+    flex-direction: column;
+  }
+  
+  .content {
+    flex: 1; /* Allow the content area to expand and take available space */
+    padding: 1rem; /* Optional: Add padding for content */
+  }
+  
+  /* Optional: Add margin to the footer if necessary */
+  footer {
+    margin-top: 2rem; /* Adjust the spacing as needed */
+  }
+  

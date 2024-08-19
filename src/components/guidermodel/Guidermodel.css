@@ -1,0 +1,83 @@
+/* Guidermodel.css */
+
+.custom-modal .modal-dialog {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 1rem);
+}
+
+.custom-modal .modal-content {
+  width: auto;
+  max-width: 90%;
+  height: auto;
+  max-height: 90vh;
+}
+
+.custom-modal .modal-header {
+  background-color: #007bff;
+  color: white;
+  border-bottom: 1px solid #007bff;
+}
+
+.custom-modal .modal-title {
+  font-weight: bold;
+}
+
+.custom-modal .modal-body {
+  padding: 20px;
+  overflow-y: auto; /* Add this line to make the modal body scrollable */
+  max-height: 70vh; /* Adjust the height as needed */
+}
+
+.custom-modal .table-responsive {
+  margin-top: 20px;
+}
+
+.custom-table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #212529;
+  border-collapse: collapse;
+}
+
+.custom-table th,
+.custom-table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+.custom-table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.custom-table tbody + tbody {
+  border-top: 2px solid #dee2e6;
+}
+
+.custom-table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.custom-table-hover tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+.custom-modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+  border-top: 1px solid #dee2e6;
+}
+
+.custom-modal-footer .btn-secondary {
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.custom-modal-footer .btn-secondary:hover {
+  background-color: #5a6268;
+  border-color: #545b62;
+}
